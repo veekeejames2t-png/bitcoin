@@ -1,0 +1,16 @@
+[project]
+name = "bitcoin"
+description = "SIP-010 fungible token 'Bitcoin' implemented in Clarity."
+authors = ["Nkechi Okoye"]
+
+[contracts.sip10-trait]
+path = "contracts/sip10-trait.clar"
+clarity_version = 2
+epoch = "3.0"
+depends_on = []
+
+[contracts.bitcoin]
+path = "contracts/bitcoin.clar"
+clarity_version = 2
+epoch = "3.0"
+depends_on = ["sip10-trait"]
