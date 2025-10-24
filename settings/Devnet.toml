@@ -1,0 +1,9 @@
+# Clarinet Devnet settings
+# Using defaults; customize accounts if needed.
+
+[network]
+name = "devnet"
+
+[accounts.deployer]
+mnemonic = "abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon about"
+balance = "1000000000000000"
