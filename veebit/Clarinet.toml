@@ -5,9 +5,10 @@ authors = []
 telemetry = true
 cache_dir = "./.cache"
 
-# [contracts.counter]
-# path = "contracts/counter.clar"
-# epoch = "latest"
+[contracts.veebit]
+path = "contracts/veebit.clar"
+epoch = "latest"
+
 
 [repl.analysis]
 passes = ["check_checker"]
